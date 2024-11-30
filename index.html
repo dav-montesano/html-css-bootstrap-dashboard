@@ -34,29 +34,31 @@
         </div>
     </nav>
     <!-- here starts the main section -->
-    <main class="container">
-        <!-- Page title -->
-         <div class="row">
-            <div class="col">Catalogo Libri</div>
+    <main class="container-md">
+        <!-- Section Page title -->
+         <div class="row mt-5">
+            <div class="col">
+                <h1 class="fw-normal">Catalogo Libri</h1>
+            </div>
             <div class="col text-end">
                 <button type="button" class="btn btn-primary">Aggiung libro</button>
             </div>
          </div>
         <!-- Table -->
-        <table class="table table-striped">
+        <table class="table table-striped mt-4 table-bordered shadow">
             <thead>
                 <tr>
-                    <th scope="col" class="col-6">Titolo</th>
-                    <th scope="col">Data di prestito</th>
-                    <th scope="col">Stato</th>
-                    <th scope="col" class="text-center">Azioni</th>
+                    <th scope="col" class="col-5 fw-semibold">Titolo</th>
+                    <th scope="col" class="col-3 fw-semibold d-none d-md-table-cell">Data di prestito</th>
+                    <th scope="col" class="col-2 fw-semibold">Stato</th>
+                    <th scope="col" class="col-3 text-center fw-semibold">Azioni</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="table-group-divider">
                 <!-- row component I pilastri della terra -->
-                <tr>
+                <tr class="align-middle">
                     <td>I pilastri della terra</td>
-                    <td>-</td>
+                    <td class="d-none d-md-table-cell">-</td>
                     <td class="align-middle">
                         <span class="badge text-bg-success">Success</span>
                     </td>
@@ -76,9 +78,9 @@
                     </td>
                 </tr>
                 <!-- row component I promessi sposi -->
-                <tr>
+                <tr class="align-middle">
                     <td>I promessi sposi</td>
-                    <td>-</td>
+                    <td class="d-none d-md-table-cell">-</td>
                     <td class="align-middle">
                         <span class="badge text-bg-success">Success</span>
                     </td>
@@ -98,9 +100,9 @@
                     </td>
                 </tr>
                 <!-- row component Il signore degli anelli -->
-                <tr>
+                <tr class="align-middle">
                     <td>Il signore degli anelli</td>
-                    <td>18/10/2024</td>
+                    <td class="d-none d-md-table-cell">18/10/2024</td>
                     <td class="align-middle">
                         <span class="badge text-bg-warning">In prestito</span>
                     </td>
@@ -120,9 +122,9 @@
                     </td>
                 </tr>
                 <!-- row component Harry Potter e la pietra filosofale -->
-                <tr>
+                <tr class="align-middle">
                     <td>Harry Potter e la pietra filosofale</td>
-                    <td>-</td>
+                    <td class="d-none d-md-table-cell">-</td>
                     <td class="align-middle">
                         <span class="badge text-bg-success">Disponibile</span>
                     </td>
@@ -142,9 +144,9 @@
                     </td>
                 </tr>
                 <!-- row component Il codice Da Vinci -->
-                <tr>
+                <tr class="align-middle">
                     <td>Il codice Da Vinci</td>
-                    <td>-</td>
+                    <td class="d-none d-md-table-cell">-</td>
                     <td class="align-middle">
                         <span class="badge text-bg-danger">Non disponibile</span>
                     </td>
@@ -164,9 +166,9 @@
                     </td>
                 </tr>
                 <!-- row component Shining -->
-                <tr>
+                <tr class="align-middle">
                     <td>Shining</td>
-                    <td>-</td>
+                    <td class="d-none d-md-table-cell">-</td>
                     <td class="align-middle">
                         <span class="badge text-bg-success">Disponibile</span>
                     </td>
@@ -186,9 +188,9 @@
                     </td>
                 </tr>
                 <!-- row component La divina commedia -->
-                <tr>
+                <tr class="align-middle">
                     <td>La divina commedia</td>
-                    <td>12/10/2024</td>
+                    <td class="d-none d-md-table-cell">12/10/2024</td>
                     <td class="align-middle">
                         <span class="badge text-bg-warning">In prestito</span>
                     </td>
@@ -208,9 +210,9 @@
                     </td>
                 </tr>
                 <!-- row component Il trono di spade -->
-                <tr>
+                <tr class="align-middle">
                     <td>Il trono di spade</td>
-                    <td>-</td>
+                    <td class="d-none d-md-table-cell">-</td>
                     <td class="align-middle">
                         <span class="badge text-bg-success">Disponibile</span>
                     </td>
@@ -230,9 +232,9 @@
                     </td>
                 </tr>
                 <!-- row component Il mondo di Sofia -->
-                <tr>
+                <tr class="align-middle">
                     <td>Il mondo di Sofia</td>
-                    <td>-</td>
+                    <td class="d-none d-md-table-cell">-</td>
                     <td class="align-middle">
                         <span class="badge text-bg-danger">Non disponibile</span>
                     </td>
@@ -252,9 +254,9 @@
                     </td>
                 </tr>
                 <!-- row component Le cronache di Narnia: il leone, la strega e l'armadio -->
-                <tr>
+                <tr class="align-middle">
                     <td>Le cronache di Narnia: il leone, la strega e l'armadio</td>
-                    <td>14/10/2024</td>
+                    <td class="d-none d-md-table-cell">14/10/2024</td>
                     <td class="align-middle">
                         <span class="badge text-bg-warning">In prestito</span>
                     </td>
@@ -274,9 +276,9 @@
                     </td>
                 </tr>
                 <!-- row component Il piccolo principe -->
-                <tr>
+                <tr class="align-middle">
                     <td>Il piccolo principe</td>
-                    <td>-</td>
+                    <td class="d-none d-md-table-cell">-</td>
                     <td class="align-middle">
                         <span class="badge text-bg-success">Disponibile</span>
                     </td>
@@ -296,9 +298,9 @@
                     </td>
                 </tr>
                 <!-- row component La storia infinita -->
-                <tr>
+                <tr class="align-middle">
                     <td>La storia infinita</td>
-                    <td>-</td>
+                    <td class="d-none d-md-table-cell">-</td>
                     <td class="align-middle">
                         <span class="badge text-bg-success">Disponibile</span>
                     </td>
