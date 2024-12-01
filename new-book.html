@@ -70,18 +70,58 @@
             </div>
             <!-- 3rd row of inputs -->
             <div class="row mb-3">
-                <!-- Input genere -->
+                <!-- Select genere -->
                 <div class="col">
-                    <label for="Input-form-nome-autore" class="form-label">Nome autore</label>
-                    <input type="text" class="form-control" id="Input-form-nome-autore" placeholder="Inserisci il nome dell'autore">
+                    <label for="Input-form-genere" class="form-label">Genere</label>
+                    <select class="form-select" id="Input-form-genere">
+                        <!-- <option selected>Scegli il genere</option> -->
+                        <option value="" disabled selected hidden>Scegli il genere</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
                 </div>
                 <!-- Input anno di pubblicazione -->
                 <div class="col">
-                    <label for="Input-form-cognome-autore" class="form-label">Cognome autore</label>
-                    <input type="text" class="form-control" id="Input-form-cognome-autore" placeholder="Inserisci il cognome dell'autore">
+                    <label for="Input-form-anno-pubblicazione" class="form-label">Anno di pubblicazione</label>
+                    <input type="text" class="form-control" id="Input-form-anno-pubblicazione" placeholder="Inserisci l'anno">
+                </div>
+                <!-- Input ISBN -->
+                <div class="col">
+                    <label for="Input-form-codice-isbn" class="form-label">ISBN#</label>
+                    <input type="text" class="form-control" id="Input-form-codice-isbn" placeholder="Inserisci il codice ISBN">
                 </div>
             </div>
-            
+            <!-- divider -->
+            <hr class="mt-5 mb-4">
+            <!-- <div class="border-top mt-4 mb-4"></div> -->
+            <!-- 4th row of inputs -->
+            <div class="row mb-3">
+                <!-- Input note -->
+                <div class="col">
+                    <label for="note-text-area" class="form-label">Note</label>
+                    <textarea class="form-control" id="note-text-area" rows="3" placeholder="Inserisci eventuali note sul libro"></textarea>
+                </div>
+            </div>
+            <!-- 5th row of inputs -->
+            <div class="row mb-3">
+                <!-- checkbox versione digitale -->
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="check-versione-digitale">
+                        <label class="form-check-label" for="check-versione-digitale">
+                          Disponibile anche in versione digitale
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- 6th row button submit -->
+            <div class="row mb-3">
+                <!-- button per aggiungere libro -->
+                <div class="col">
+                    <button type="submit" class="btn btn-primary">Aggiungi</button>
+                </div>
+            </div>
         </form>
             
     </main>
